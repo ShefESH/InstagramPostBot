@@ -1,6 +1,19 @@
 # InstagramPostBot
 A bot for creating monday session instagram posts by Joshua Rylance (Publicity Officer 2024-25)
 
+## Installation
+ChromeDriver is required for this.
+Download - https://developer.chrome.com/docs/chromedriver/downloads 
+Check which version of chrome you have - it is important
+You can use other browser drivers - replace the chromedriver code with the browser driver of your choice
+As far as I know you can put the chromedriver files anywhere on your system. However, I put them in the same folder as the program for simplicity.
+
+Selenium is also required.
+Download - https://www.selenium.dev/downloads/ 
+Pick the java installation.
+These files need to be at least next to the folder you place the program files. I'm not sure about if moving these files elsewhere is safe or not so consult the selenium guides.
+
+
 ## Run instructions: - from folder containing all program files
 ### linux:
 ```
