@@ -1,4 +1,4 @@
 #!/bin/sh
 
-cd ../app/build/libs
+cd ./app/build/libs
 java -jar app-all.jar
