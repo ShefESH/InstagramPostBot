@@ -13,16 +13,19 @@ cd .\runJar\
 run.bat
 ```
 
+Supply the prompts with the session title and location. Time is assumed to be 6pm. Date is the next monday and is calculated internally.
+
 
 ## How it works:
 
 Uses Selenium to drive the website. Creates a session post based off the template in canva. 
 The template has to be unlocked, other the bot will not work.
 The template has to be at the top of the canva page.
-Occasionally the design tab will open when running the bot. I am not sure why this happens every so often. Just re run the bot and it will work.
-Occasionally the cookies will not be clicked so the bot will stop. Re run the bot and it will work. I believe this is due to the speed of the bot.
-Future publicity officers - you can change this if you like, but i prefer sheer speed. 
 
+Known Issues:
+- Occasionally the design tab will open when running the bot. I am not sure why this happens every so often. Just re run the bot and it will work.
+- Occasionally the cookies will not be clicked so the bot will stop. Re run the bot and it will work. I believe this is due to the speed of the bot.
+  Future publicity officers - you can change this if you like, but i prefer sheer speed. 
 
 ## Any other question:
 You can always send me a message on discord @CrowdedFire :)
