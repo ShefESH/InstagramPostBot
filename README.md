@@ -31,6 +31,13 @@ Supply the prompts with the session title and location. Time is assumed to be 6p
 
 ## How it works:
 
+### Build new version:
+```
+./gradlew shadowJar
+```
+This command runs teh shadowJar Task. This is replace the current jar file with the updated one.
+Jar file is found at app/build/libs
+
 Uses Selenium to drive the website. Creates a session post based off the template in canva. 
 The template has to be unlocked, other the bot will not work.
 The template has to be at the top of the canva page.
