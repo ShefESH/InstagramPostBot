@@ -1,1 +1,1 @@
-start java -jar ..\app\build\libs\app-all.jar
+start java -jar ..\app\build\libs\postBot-all.jar

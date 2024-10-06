@@ -20,6 +20,7 @@ public class App {
     String info;
     String date;
     String location;
+    String desc;
 
     public App(){
         Scanner sc = new Scanner(System.in);
@@ -27,7 +28,10 @@ public class App {
         info = sc.nextLine();
         System.out.print("Enter Location of Session> ");
         location = sc.nextLine();
+        System.out.print("Enter Short Description of session> ");
+        desc = sc.nextLine();
         sc.close();
+        new DescBot(info, date, location, desc);
         bot(info, location);
     }
 

@@ -12,6 +12,17 @@ plugins {
     id 'com.gradleup.shadow' version '8.3.3'
 }
 
+tasks {
+  shadowJar {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    archiveBaseName.set("postBot")
+    mergeServiceFiles()
+    manifest {
+        attributes("Main-Class": "instagram.post.creator.App")
+    }
+  }
+}
+
 repositories {
     // Use Maven Central for resolving dependencies.
     mavenCentral()
