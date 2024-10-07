@@ -26,8 +26,8 @@ cd .\runJar\
 run.bat
 ```
 
-Supply the prompts with the session title and location. Time is assumed to be 6pm. Date is the next monday and is calculated internally.
-
+Supply the prompts with the session title and location. The short description is used for the text post generation. Time is assumed to be 6pm. Date is the next monday and is calculated internally.
+The text generation file is called post.txt and is placed in the same place as where you are running the jar from.
 
 ## How it works:
 
