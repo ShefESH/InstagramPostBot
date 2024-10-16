@@ -26,10 +26,17 @@ cd .\runJar\
 run.bat
 ```
 
-Supply the prompts with the session title and location. Time is assumed to be 6pm. Date is the next monday and is calculated internally.
-
+Supply the prompts with the session title and location. The short description is used for the text post generation. Time is assumed to be 6pm. Date is the next monday and is calculated internally.
+The text generation file is called post.txt and is placed in the same place as where you are running the jar from.
 
 ## How it works:
+
+### Build new version:
+```
+./gradlew shadowJar
+```
+This command runs teh shadowJar Task. This is replace the current jar file with the updated one.
+Jar file is found at app/build/libs
 
 Uses Selenium to drive the website. Creates a session post based off the template in canva. 
 The template has to be unlocked, other the bot will not work.
