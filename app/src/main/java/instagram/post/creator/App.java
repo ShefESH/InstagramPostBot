@@ -108,7 +108,7 @@ public class App {
 
         //adds the 'th', 'rd' and 'nd' suffixes to the date
         switch(day){
-            case "1","4","5","6","7","8","9","10","11","12"
+            case "4","5","6","7","8","9","10","11","12"
                 ,"13","14","15","16","17","18","19","20"
                 ,"24","25","26","27","28","29","30","31":
 
@@ -116,6 +116,9 @@ public class App {
                 break;
             case "2","22":
                 day = day + "nd";
+                break;
+            case "1","21":
+                day = day + "st";
                 break;
             case "3","23":
                 day = day + "rd";
