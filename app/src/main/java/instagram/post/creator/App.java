@@ -31,14 +31,14 @@ public class App {
         System.out.print("Enter Short Description of session> ");
         desc = sc.nextLine();
         sc.close();
+        date = getDate();
         new DescBot(info, date, location, desc);
         bot(info, location);
     }
 
     public void bot(String info, String location){
 
-        //sets up correct date, driver to operate chrome
-        date = getDate();
+        //sets up driver to operate chrome
         driver = new ChromeDriver();
         driver.get("https://www.canva.com/design/DAFyX_FVztw/ZCgJwJCD4Un-ySCXx0goBg/edit");
         driver.manage().window().maximize();
