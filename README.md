@@ -46,7 +46,8 @@ Known Issues:
 - Occasionally the design tab will open when running the bot. I am not sure why this happens every so often. Just re run the bot and it will work.
 - Occasionally the cookies will not be clicked so the bot will stop. Re run the bot and it will work. I believe this is due to the speed of the bot.
   Future publicity officers - you can change this if you like, but i prefer sheer speed. 
+I apologise for the lack of commits, I created this for personal use and then thought about oh I should put this on the github, and now here we are!
 
-## Any other question:
+## Any other questions:
 You can always send me a message on discord @CrowdedFire :)
 
